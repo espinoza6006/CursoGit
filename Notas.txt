@@ -1,3 +1,46 @@
 Notas De Programación. 
 
-Aprendiendo a usar Git-GitHub-
+Aprendiendo a usar Git-GitHub
+
+comandos: 
+
+git init 
+--> Se utiliza al inicio del proyecto sirve para empezar hacer seguimiento a los archivos del proyecto.
+--> Se debe ejecutar en working area, es decir en la carpte del proyecto.
+--> Con esta instrucción se crean las dos areas de almacenamiento. Staging area y Local repo
+
+git add <nombre archivo> // git add .
+
+--> Este comando sirve para llevar un arcivo espacifio o todos al area de ensayo.
+--> Aqui se pueden ver los estatus de los archivos, si un archivo se le esta haciendo seguiemiento, y esta en el staging area o si se ha modificado.
+
+git status -s 
+
+--> Sirve para chequear el estado de los archivos del proyecto. 
+--> Puedo saber que documentos estan en el staging area (A), cuales han sido modificados (m) y a cuales no se le esta haciendo seguimiento en git (?). 
+--> Si cuando hago un status y veo que uno de los archivos no esta en esta area quiere decir que se ha creado un reposito local.
+
+git commit -m "comentario"
+
+--> Comando que sirve para crear el repositorio local.
+--> Lleva los archivos del que estan en el area de ensayo y crea un repositorio local con los cambios que se han efectuado.
+--> Es aqui donde se van a guardar todas las "fotos instantaneas" o cambios que se le han hechyo a los archivos del proyecto. 
+
+
+git log --oneline
+
+--> Sirve para listar los registro de todos las "fotos instantaneas" o repositorios locales que hemos creado.
+--> Nos aparece el identificador (numero alfa-numerico) de cada commit que hemos hecho a lo largo del proyecto. 
+
+
+NOTA: Cuando hacemos un cambio a un archio  y queremos crear un repositorio local. Se tiene que hacer nuevamente add y commit.
+
+
+git commit -am "comentarios"
+
+--> Sirve para hacer un add y commit a la vez. 
+
+git reset <identificador del commit> 
+
+--> Sirve para resetear y volver a un determinado commit que se haya hecho a lo largo del proyecto. 
+--> si queremos acceder a un commit determinado tenemos que tener en cuenta que se borrar los commit hecho hasta ese punto que desee volver. 
