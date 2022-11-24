@@ -4,6 +4,10 @@ Aprendiendo a usar Git-GitHub
 
 comandos: 
 
+git --version 
+
+--> Verificamos si tenemos git en nuestro ordenador. 
+
 git init 
 --> Se utiliza al inicio del proyecto sirve para empezar hacer seguimiento a los archivos del proyecto.
 --> Se debe ejecutar en working area, es decir en la carpte del proyecto.
@@ -22,7 +26,7 @@ git status -s
 
 git commit -m "comentario"
 
---> Comando que sirve para crear el repositorio local.
+--> Comando que sirve para crear el repositorio local. Git Repo
 --> Lleva los archivos del que estan en el area de ensayo y crea un repositorio local con los cambios que se han efectuado.
 --> Es aqui donde se van a guardar todas las "fotos instantaneas" o cambios que se le han hechyo a los archivos del proyecto. 
 
@@ -49,3 +53,24 @@ Git commit --amend
 
 --> sirve para editar los comentarios cuando hacemos los commit.. 
 --Se abrirá una ventana del editor vim y podemos editar el comentario. 
+
+
+git config user.name "Williams Espinoza"
+git config user.email "espinoza@gmail.com"
+--> Git necesita un usuario para saber con quien esta interactuando. Por ello es necesario crear un nombre y un correo que debe ser el mismo correo usado en github. 
+--> Es importante crear estas variables de lo comtrario no vamos a poder crear un repositorio remoto en github. 
+
+git config -l 
+--> Lista las variables locales y los usuarios que hemos creado entre otras cosas. 
+
+*** Subir un repositorio a GitHub (Remote Repository) ***
+S
+1- Se debe ir a la pagina de github y hacer click en crear un nuevo repositorio. 
+2- Se debe colocar el nombre del repositorio.
+3- Como ya tenemos un repositorio local en nuestro ordenador el paso es subirlo a github. Comando a utilizar: 
+
+git remote add origin https//"Del repositorio creado en github" --> Sirve para subir nuestro repo local a github (Remote Repository)
+git push -u origin main --> sirve para ir actualizando nuestro repositorio remoto (git hub)
+
+
+
