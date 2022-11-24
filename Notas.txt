@@ -70,7 +70,7 @@ S
 3- Como ya tenemos un repositorio local en nuestro ordenador el paso es subirlo a github. Comando a utilizar: 
 
 git remote add origin https//"Del repositorio creado en github" --> Sirve para subir nuestro repo local a github (Remote Repository)
-git push -u origin main --> sirve para ir actualizando nuestro repositorio remoto (git hub) --> cada vez que actualicemos algo en nuestro repo local y queremos
+git push -u origin main  --> sirve para ir actualizando nuestro repositorio remoto (git hub) --> cada vez que actualicemos algo en nuestro repo local y queremos
 subirlo a git hub utilizamos este comando. 
 
 
