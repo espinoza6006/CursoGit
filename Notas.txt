@@ -44,3 +44,8 @@ git reset <identificador del commit>
 
 --> Sirve para resetear y volver a un determinado commit que se haya hecho a lo largo del proyecto. 
 --> si queremos acceder a un commit determinado tenemos que tener en cuenta que se borrar los commit hecho hasta ese punto que desee volver. 
+
+Git commit --amend
+
+--> sirve para editar los comentarios cuando hacemos los commit.. 
+--Se abrirá una ventana del editor vim y podemos editar el comentario. 
