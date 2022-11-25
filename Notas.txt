@@ -79,3 +79,12 @@ git pull
 --> Permite "jalar" los cambios hechos desde remoto hacia el local. 
 --> Es necesario estar en el work space diretory con git bash.
 
+
+*** Clonar un proyecto ***
+Hay dos opciones de clonar un proyecto desde un repositoio remoto: 
+
+1- a través de linea de comando con git bash con el siguiente comando 
+git clone url:proyecto
+
+2- Descargando el archivo .zip que se encuentra al pulsar el boton verde en la parte superior de la pantalla de github que dice <Code>
+
