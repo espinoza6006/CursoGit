@@ -73,5 +73,9 @@ git remote add origin https//"Del repositorio creado en github" --> Sirve para s
 git push -u origin main  --> sirve para ir actualizando nuestro repositorio remoto (git hub) --> cada vez que actualicemos algo en nuestro repo local y queremos
 subirlo a git hub utilizamos este comando. 
 
+*** Extraer cambios desde el Repositorio remoto hacia el local reositorio ***
 
+git pull 
+--> Permite "jalar" los cambios hechos desde remoto hacia el local. 
+--> Es necesario estar en el work space diretory con git bash.
 
