@@ -88,3 +88,8 @@ git clone url:proyecto
 
 2- Descargando el archivo .zip que se encuentra al pulsar el boton verde en la parte superior de la pantalla de github que dice <Code>
 
+
+Enero 2023  Retomando clases de git
+
+
+
