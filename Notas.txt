@@ -89,7 +89,12 @@ git clone url:proyecto
 2- Descargando el archivo .zip que se encuentra al pulsar el boton verde en la parte superior de la pantalla de github que dice <Code>
 
 
-Enero 2023  Retomando clases de git --> Practicando git pull
+Nota: Para ello debemos ir al work directory donde queremos clonar el proyecto desde el remo remote al repo local.
+y ejecutamos el comando git clone url:<dirección del proyecto>
+
+
+
+
 
 
 
