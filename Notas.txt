@@ -62,6 +62,10 @@ git config user.email "espinoza@gmail.com"
 
 git config -l 
 --> Lista las variables locales y los usuarios que hemos creado entre otras cosas. 
+--> Para salir del editor vim --> :q
+     Esc para entrar al modo de comandos.
+     Escribe :wq para guardar y salir, o :x también funciona.
+     Si no deseas guardar cambios, puedes usar :q! y presionar Enter.
 
 *** Subir un repositorio a GitHub (Remote Repository) ***
 S
